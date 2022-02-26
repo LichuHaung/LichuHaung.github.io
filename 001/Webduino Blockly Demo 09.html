@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<!-- saved from url=(0070)https://bit.webduino.io/blockly/live-preview.html#-MwnnMjwbrWsw-C4xmsn -->
+<!-- saved from url=(0070)https://bit.webduino.io/blockly/live-preview.html#-Mwo0z6NXuhwVxfx84hx -->
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <title>Webduino Blockly Demo 09</title>
-  <script src="./index_files/jquery.min.js.下載"></script>
-  <script src="./index_files/webduino-all.min.js.下載"></script>
-  <script src="./index_files/MessageTransport.min.js.下載"></script>
-  <script src="./index_files/webduino-blockly.min.js.下載"></script>
-  <script src="./index_files/firebase.min.js.下載"></script>
-  <script src="./index_files/runtime.min.js.下載"></script><script src="./index_files/BitLedMatrix-blockly.js.下載"></script><script src="./index_files/BitLedMatrix.js.下載"></script>
+  <script src="./Webduino Blockly Demo 09_files/jquery.min.js.下載"></script>
+  <script src="./Webduino Blockly Demo 09_files/webduino-all.min.js.下載"></script>
+  <script src="./Webduino Blockly Demo 09_files/MessageTransport.min.js.下載"></script>
+  <script src="./Webduino Blockly Demo 09_files/webduino-blockly.min.js.下載"></script>
+  <script src="./Webduino Blockly Demo 09_files/firebase.min.js.下載"></script>
+  <script src="./Webduino Blockly Demo 09_files/runtime.min.js.下載"></script><script src="./Webduino Blockly Demo 09_files/BitLedMatrix-blockly.js.下載"></script><script src="./Webduino Blockly Demo 09_files/BitLedMatrix.js.下載"></script>
 
   <style>html,body{
   font-family:'Verdana';
@@ -300,6 +300,18 @@ boardReady({board: 'Bit', device: 'bit573bd', transport: 'mqtt'}, function (boar
   });
   controllerBtnEvent(getElement("#demo-area-09 .btn-num3"),"click", function(){
     matrix.setColor("00ffff0001ffff0002ffff0003ffff0004ffff000500000006000000070000000800000009ffff000affff000bffff000cffff000dffff000effff000f00000010000000110000001200000013ffff0014ffff0015ffff0016ffff0017ffff0018ffff00");
+  });
+  controllerBtnEvent(getElement("#demo-area-09 .btn-num4"),"click", function(){
+    matrix.setColor("0033cc00010000000233cc0003000000040000000533cc00060000000733cc0008000000090000000a33cc000b33cc000c33cc000d33cc000e33cc000f000000100000001133cc00120000001300000014000000150000001633cc001700000018000000");
+  });
+  controllerBtnEvent(getElement("#demo-area-09 .btn-num5"),"click", function(){
+    matrix.setColor("0066ffff0166ffff0266ffff0366ffff0466ffff0566ffff060000000700000008000000090000000a66ffff0b66ffff0c66ffff0d66ffff0e66ffff0f0000001000000011000000120000001366ffff1466ffff1566ffff1666ffff1766ffff1866ffff");
+  });
+  controllerBtnEvent(getElement("#demo-area-09 .btn-num6"),"click", function(){
+    matrix.setColor("003333ff013333ff023333ff033333ff043333ff053333ff060000000700000008000000090000000a3333ff0b3333ff0c3333ff0d3333ff0e3333ff0f3333ff100000001100000012000000133333ff143333ff153333ff163333ff173333ff183333ff");
+  });
+  controllerBtnEvent(getElement("#demo-area-09 .btn-stop"),"click", function(){
+    matrix.setColor("000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000");
   });
 });
 </script>
